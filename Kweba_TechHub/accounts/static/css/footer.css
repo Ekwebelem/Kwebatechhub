@@ -1,0 +1,41 @@
+.testfooter{
+  background-color: #00104E;
+  color: white;
+}
+
+.footerlast{
+  background-color: #00104E;
+  color: Aqua;
+}
+
+
+underlinedfoot{
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.footerhover:hover {
+  color: Aqua;
+}
+
+#footerlasthover:hover {
+  color: white;
+}
+
+#footerbody{
+  padding-top: 30px;
+  background-color: #00104E;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#footerbody h6{
+  color: aqua;
+}
+.footerpara{
+    text-align: justify;
+}
+/* #0F6DFD; */

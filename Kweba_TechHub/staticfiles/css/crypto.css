@@ -1,0 +1,243 @@
+
+/*  let the header column start here  */
+
+#cryptojumbotron{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+    background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  /*  width: 100%;
+  height: 200px; */
+  object-fit: cover;
+     width: 100%;
+     height: 200px;
+}
+
+
+
+
+
+.cryptoheadercell{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+
+#cryptofirstblocktext{
+  padding-top: 50px;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#cryptofirstblocktext p{
+    font-size: 17px;
+}
+
+#cryptofirstblocktext h3{
+  color: #037BFE;
+}
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#cryptosecondblockjumbotron{
+
+}
+
+.cryptosecondblockfill img {
+  padding-right: 10px;
+  padding-left: 10px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cryptosecondblocktext{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+
+}
+
+.cryptosecondblocktext h3{
+  color: #037BFE;
+}
+
+/*  let the second column end here  */
+
+/*  let the third column start here  */
+
+#cryptothirdblockjumbotron{
+  background-color: LightCyan;
+  padding-top: 0px;
+}
+
+.cryptothirdblocktext{
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+.cryptothirdblocktext h3{
+  color: #037BFE;
+}
+
+.cryptothirdblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the third column end here  */
+
+/*  let the forth column start here  */
+#cryptoforthjumbo{
+  padding-top: 20px;
+}
+
+#cryptoforthblocktext{
+  padding-top: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+
+#cryptoforthblocktext p{
+    font-size: 17px;
+}
+
+#cryptoforthblocktext h3{
+  color: #037BFE;
+}
+
+/*  let the forth column end here  */
+
+/*  let the fifth column start here  */
+
+#cryptofifthblockjumbotron{
+  padding-bottom: 50px;
+}
+
+.cryptofifthblocktext{
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+.cryptofifthblocktext h3{
+    color: #037BFE;
+}
+
+.cryptofifthblocktext p{
+  text-align: justify;
+}
+
+.cryptofifthblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the fifth column end here  */
+
+/*  let the sixth column start here  */
+
+#cryptosixthblockjumbotron{
+  background-color: LightCyan;
+
+}
+
+.cryptosixthblocktext{
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.cryptosixthblocktext h3{
+  color: #037BFE;
+}
+
+.cryptosixthblocktext p{
+    text-align: justify;
+}
+
+.cryptosixthblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the sixth column end here  */
+
+
+
+/*  let the seventh column start here  */
+
+#cryptoseventhblock{
+  padding-top: 30px;
+}
+
+#cryptoseventhblocktext{
+  padding-top: 30px;
+}
+
+#cryptoseventhblocktext h3{
+  color: #037BFE;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+#cryptoseventhblocktext p{
+  text-align: justify;
+  font-size: 17px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+/*  let the seventh column end here  */
+
+/*  let the eight column start here  */
+
+#cryptoeightblockjumbotron{
+  padding-top: 20px;
+}
+
+#cryptoeightblocktext{
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#cryptoeightblocktext h3{
+  color: #037BFE;
+}
+
+#cryptoeightblocktext p{
+  font-size: 17px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+/*  let the eight column end here  */

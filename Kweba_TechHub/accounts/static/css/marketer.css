@@ -1,0 +1,130 @@
+/*  let the header column start here  */
+
+#marketerheader{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+
+}
+
+.marketerjumbotrontext{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+#marketerfirstjumbo{
+  padding-top: 30px;
+}
+
+.marketerfirsttext{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.marketerfirsttext h1{
+  color: #037BFE;
+}
+
+.marketerfirsttext p{
+  font-size: 17px;
+}
+
+
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#marketersecondblockjumbotron{
+  padding-top: 0px;
+}
+
+.marketersecondblocktext h3{
+  color: #0F6DFD;
+}
+
+.marketersecondblocktext strong{
+  color: #0F6DFD;
+}
+
+.marketersecondblockfill img {
+
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+}
+
+.marketersecondblocktext{
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+
+/*  let the second column end here  */
+
+/*  let the third column start here  */
+
+#marketerthirdjumbo{
+
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.marketerthirdformtext{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.marketerthirdformtext  h3{
+  color: #0F6DFD;
+}
+
+.marketerthirdformtext strong{
+  color: #0F6DFD;
+}
+
+
+marketerthirdformbackground{
+  background-color: #037BFE;
+  color: white;
+}
+
+.marketerthirdformpad{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background-color: #037BFE;
+  color: white;
+}
+
+#marketerthirdformp{
+  text-align: center
+}
+
+.marketerthirdbtn2{
+  text-align: center;
+}
+
+ .btn.btn-sucess{
+   background-color: #00104E;
+   color: white;
+}
+/*  let the third column end here  */

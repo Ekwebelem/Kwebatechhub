@@ -1,0 +1,169 @@
+
+
+/*  let the header column start here  */
+
+
+#ui_uxjumbotron{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.ui_uxheadercell{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+#ui_uxfirstblock{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#ui_uxfirstblocktext{
+  padding-top: 30px;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#ui_uxfirstblocktext h3{
+  color: #037BFE;
+}
+
+#ui_uxfirstblocktext p{
+    font-size: 17px;
+}
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#ui_uxsecondblockjumbotron{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ui_uxsecondblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.ui_uxsecondblocktext{
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+
+
+}
+
+.ui_uxsecondblocktext body{
+  background-image: url('images/uiuxhead.jpg');
+}
+
+.ui_uxsecondblocktext h3{
+color: #0F6DFD;
+}
+
+
+/*  let the second column end here  */
+
+/*  let the third column start here  */
+
+#ui_uxthirdblockjumbotron{
+  background-color: LightCyan;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.ui_uxthirdblocktext{
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.ui_uxthirdblocktext h3{
+  color: #037BFE;
+}
+
+
+.ui_uxthirdblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the third column end here  */
+
+/*  let the forth column start here  */
+
+#ui_uxforthblockjumbotron{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ui_uxforthblocktext{
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+
+}
+
+.ui_uxforthblocktext h3{
+color: #0F6DFD;
+}
+
+
+.ui_uxforthblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the forth column end here  */
+
+/*  let the fifth column start here  */
+
+
+#ui_uxfifthblockjumbotron{
+  background-color: LightCyan;
+  padding-top: 40px;
+}
+
+#ui_uxfifthblocktext{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+
+#ui_uxfifthblocktext h3{
+color: #0F6DFD;
+}
+
+/*  let the fifth column end here  */
+
+/*  let the sixth column start here  */
+
+
+
+/*  let the sixth column end here  */

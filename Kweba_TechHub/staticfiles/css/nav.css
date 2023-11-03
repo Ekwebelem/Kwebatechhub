@@ -1,0 +1,66 @@
+#navback{
+  background-color: #00104E;
+  color: white !important;
+}
+
+#navtext{
+
+}
+
+.nav-item .nav-link{
+
+   color: white;
+}
+
+ .navbar-nav .nav-link{
+
+    color: white;
+}
+
+
+
+.navbar-nav .nav-link:hover {
+  color: #0F6DFD;
+}
+
+#navimage img{
+  width: 260px;
+  height: 40px;
+  text-align: left;
+}
+
+.container-fluid img{
+  width: 260px;
+  height: 40px;
+}
+
+#container img{
+  width: 260px;
+  height: 40px;
+}
+
+container {
+background-color: navy;
+}
+
+
+
+.collapse .nav-link{
+  color: Navy;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #00104E !important;
+  color: white;
+}
+
+.navbar-nav .nav-link{
+
+   color: white !important;
+}
+
+.navbar-toggler{
+  background-color: white !important;
+
+}

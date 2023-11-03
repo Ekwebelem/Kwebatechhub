@@ -1,0 +1,94 @@
+/*  let the header column start here  */
+
+#careerheader{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+
+}
+
+.careerjumbotrontext{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+#careerfirstjumbo{
+  padding-top: 30px;
+}
+
+.careerfirsttext{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.careerfirsttext h1{
+  color: #037BFE;
+}
+
+.careerfirsttext p{
+  font-size: 17px;
+}
+
+
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#careersecondjumbo{
+padding-bottom: 30px;
+}
+
+.careerSecondbody{
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px skyblue;
+
+}
+
+.careerSecondbody img{
+  text-align: center;
+  height: 170px;
+  width: 170px;
+
+}
+#careerSecondhoverbody {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#careerSecondhoverbody :hover {
+  background: skyblue;
+  color: black;
+    box-shadow: none;
+  }
+
+  .careerSecondtext{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .careerSecondtext h5{
+    color: #037BFE;
+  }
+
+
+
+
+
+/*  let the second column end here  */

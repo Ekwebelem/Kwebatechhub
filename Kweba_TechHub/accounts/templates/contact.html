@@ -1,0 +1,214 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block body %}
+
+<!-- the header starts here  -->
+
+<div class="jumbotron" id="contactheaderjumbo"  style="background-image: url('{% static 'images/contactheader.jpg' %}');">
+
+
+    <div class="contactjumbotrontext">
+      <h3>Thank you for your interest</h3>
+      <p>Contact Us</p>
+   </div>
+</div>
+
+<!-- the header ends here  -->
+
+<!-- the first block starts here  -->
+<div class="jumbotron" id="contactfirstjumbo">
+<div class="container" >
+      <div class="row">
+            <div class="col-md-2">  <!-- 3 is the width of the left side -->
+            </div>
+
+            <div class="col-md-8" >  <!-- 6 is the width of the center side -->
+                  <div id="contactfirsttext">
+                    <h3>Embark on a Transformational Journey</h3>
+                    <br>
+                      <p>
+                       We would love to hear from you!
+                       <br>Whether you have a question, a project idea, or simply want to explore potential collaborations,
+                       <br>feel free to get in touch with us using any of the following methods:
+                      </p>
+                 </div>
+                 <br>
+           </div>
+           <div class="col-md-2">  <!-- 3 is the width of the left side -->
+           </div>
+     </div>
+
+</div>
+</div>
+
+<!-- the first block ends here  -->
+
+<!-- the second block starts here  -->
+
+
+<div class="jumbotron" id="contactsecondjumbo" >
+    <div class="container" >
+        <div class="row" >
+              <div class="col-md-4" id="contactfirstbody">
+                      <div class="contactfirstbody">
+                          <img src="{% static 'images/email2.png' %}"  alt="no image found">
+                          <div class="contactfirsttext" >
+                              <h5 class="">Email:</h5>
+                              <p class="">For general inquiries and business opportunities,
+                                <br> you can reach us at:
+                                <br>   <strong> <a class="text-reset" href="mailto:support@kwebatechhub.com">support@kwebatechhub.com</a> </strong>
+                                <br>We strive to reply to all emails promptly. </p>
+                          </div>
+                      </div>
+              </div>
+
+              <div class="col-md-4" id="contactfirstbody">
+                      <div class="contactfirstbody" >
+                          <img src=" {% static 'images/phone2.png' %} " class="" alt="no image found">
+                            <div class="contactfirsttext">
+                              <h5 class="">Phone:</h5>
+                              <p class="">If you prefer to speak with us directly, you can call our office at:
+                              <strong> <a class="text-reset" href="tel:+ 234 815 814 6646">+234 815 814 6646</a> </strong>
+                                <br>Our team is available during regular business hours to assist you.</p>
+                            </div>
+                      </div>
+                </div>
+
+
+              <div class="col-md-4" id="contactfirstbody">
+                      <div class="contactfirstbody" >
+                          <img src="{% static 'images/time2.png' %}" class="" alt="no image found">
+                                <div class="contactfirsttext">
+                                  <h5 class="">Working Hours:</h5>
+                                  <p class="">Our team is available to assist you during the following hours:
+                                    <br>
+                                      <strong>Monday - Friday:</strong> 8:00am - 5:00pm
+                                    <br>
+                                      <strong>Saturday -  Sunday:</strong> 12:00pm - 4:00pm
+                                  </p>
+                                </div>
+                      </div>
+              </div>
+  </div>
+</div>
+</div>
+
+
+<!-- the second block ends here  -->
+
+<!--
+  <div style="margin:80px">
+		<h1>Contact</h1>
+		<h4>Contact us directly if you have any questions</h4>
+		<p>
+			Please write your name, email address and a message below if you have any questions.
+			One of our staff members will be happy to contact you directly and answer your questions as soon as possible.
+		</p>
+		<form method="post">
+        {% csrf_token %}
+
+          {{form.as_p}}
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+-->
+
+<!-- the third block starts here  -->
+
+
+<div class="jumbotron" id="contactthirdjumbo">
+    <div class="container">
+          <div class="row">
+                <div class="col-md-6"  >
+                    <div class="contactthirdformimg">
+                        <img src="{% static 'images/contact2.png' %}"  alt="no image found">
+                      </div>
+                  </div>
+
+               <div class="col-md-6"  id="contactthirdformbackground">
+                  <div class="contactthirdformpad">
+                    <form method="post" >
+                      {% csrf_token %}
+                      <p id="contactthirdformp">Fill out the form below, and our team will respond to your inquiry as soon as possible.</p>
+                      <br>
+                      <div class="mb-3">
+                        <label for="first_name" class="form-label">First Name:</label>
+                        <input type="text" class="form-control" placeholder="First Name" id="first_name" name="first_name" required><br>
+                      </div>
+                      <div class="mb-3">
+                        <label for="last_name" class="form-label">Last Name:</label>
+                        <input type="text" class="form-control" placeholder="Last Name" id="last_name" name="last_name" required><br>
+                      </div>
+                      <div class="mb-3">
+                        <label for="phone_number" class="form-label">Phone Number:</label>
+                        <input type="text" class="form-control" placeholder="Phone No" id="phone_number" name="phone_number" required><br>
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" placeholder="Email address" id="email" name="email" required><br>
+                      </div>
+                      <div class="mb-3">
+                        <label for="subject" class="form-label" >Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                      </div>
+                      <div class="mb-3">
+                        <label for="yourmessage" class="form-label">Your Message</label>
+                        <textarea id="yourmessage" class="form-control" name="yourmessage" placeholder="Your Message" rows="4" required></textarea>
+                      </div>
+                      <div class="contactthirdbtn2">
+                        <button type="submit" class="btn btn-sucess">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- the third block ends here  -->
+
+  <!--  let the forth column start here   -->
+
+
+  <div class="jumbotron" id="contactforthjumbo" >
+      <div class="container" >
+          <div class="row" >
+                <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                </div>
+
+                <div class="col-md-5">
+                            <div>
+                                    <p>
+                                      We look forward to hearing from you and being a part of your next technological endeavor.
+                                      At Kweba Tech Hub, we value your feedback and prioritize exceptional customer service.
+                                      Let's collaborate to create innovative solutions and achieve your business goals.
+                                      <strong>Contact us today!</strong>
+                                    </p>
+                              </div>
+                </div>
+
+                <div class="col-md-5" >
+                      <div class="">
+                        <p>
+                          <strong>Note: </strong>For inquiries related to specific services such as UI/UX Design, Software Development, Business Development, Project Management, and Crypto Trading,
+                          please mention the service in your message or subject line, so we can direct your query to the appropriate department.
+                        </p>
+                      </div>
+                </div>
+
+                <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!--  let the forth column end here   -->
+
+
+
+{% endblock %}

@@ -1,0 +1,166 @@
+
+/*  let the header column start here  */
+
+#projectjumbotron{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+
+  }
+
+.projectheadercell{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+
+#projectfirstblockjumbotron {
+
+}
+
+#projectfirstblocktext{
+  padding-top: 50px;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#projectfirstblocktext p{
+    font-size: 17px;
+}
+
+#projectfirstblocktext h3{
+    color: #037BFE;
+}
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#projectsecondblockjumbotron{
+  padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.projectsecondblockfill img {
+  padding-right: 10px;
+  padding-left: 10px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.projectsecondblocktext{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+
+}
+
+.projectsecondblocktext h3{
+    color: #037BFE;
+}
+
+/*  let the second column end here  */
+
+/*  let the third column start here  */
+
+#projectthirdblockjumbotron{
+  background-color: LightCyan;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.projectthirdblocktext{
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.projectthirdblocktext h3{
+    color: #037BFE;
+}
+
+.projectthirdblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the third column end here  */
+
+/*  let the forth column start here  */
+
+#projectforthblockjumbotron{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.projectforthblocktext{
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.projectforthblocktext h3{
+    color: #037BFE;
+}
+
+
+.projectforthblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+
+/*  let the forth column end here  */
+
+/*  let the fifth column start here  */
+
+#projectfifthblockjumbotron{
+  background-color: LightCyan;
+  padding-top: 0px;
+}
+
+#projectfifthblocktext{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#projectfifthblocktext h3{
+    color: #037BFE;
+}
+
+#projectfifthblocktext p{
+  font-size: 17px;
+
+}
+/*  let the fifth column end here  */
+
+/*  let the sixth column start here  */
+
+
+
+/*  let the sixth column end here  */

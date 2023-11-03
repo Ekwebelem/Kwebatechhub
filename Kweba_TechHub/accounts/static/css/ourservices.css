@@ -1,0 +1,227 @@
+
+/*  let the header column start here  */
+
+#ourservicesheader{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+
+}
+
+.ourservicesjumbotrontext{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+#ourservicesfirstjumbo{
+  padding-top: 30px;
+}
+
+.ourservicesfirsttext{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.ourservicesfirsttext h1{
+  color: #037BFE;
+}
+
+.ourservicesfirsttext p{
+  font-size: 18px;
+}
+
+
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#ourservicessecondjumbo{
+
+}
+
+.ourservicesSecondbody{
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px skyblue;
+
+}
+
+.ourservicesSecondbody img{
+  text-align: center;
+  height: 170px;
+  width: 170px;
+
+}
+#ourservicesSecondhoverbody {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#ourservicesSecondhoverbody :hover {
+  background: skyblue;
+  color: black;
+    box-shadow: none;
+  }
+
+  .ourservicesSecondtext{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .ourservicesSecondtext h5{
+    color: #037BFE;
+  }
+
+
+
+
+
+/*  let the second column end here  */
+
+
+
+/*  let the third column start here  */
+
+#ourservicesThirdjumbo{
+  padding-top: 30px;
+  padding-bottom: 70px;
+
+
+}
+
+.ourservicesThirdbody{
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px skyblue;
+
+}
+
+.ourservicesThirdbody img{
+  text-align: center;
+  height: 170px;
+  width: 170px;
+
+}
+
+#ourservicesThirdhoverbody{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#ourservicesThirdhoverbody :hover {
+  background: skyblue;
+  color: black;
+    box-shadow: none;
+  }
+
+  .ourservicesThirdtext{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .ourservicesThirdtext h5{
+  color: #037BFE;
+  }
+
+  /*  let the third column end here  */
+
+
+/*  let the forth column start here  */
+
+#ourservicesForthjumbo{
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: LightCyan;
+
+}
+
+#ourservicesForthtexthead{
+text-align: center;
+}
+#ourservicesForthtexthead {
+color: #037BFE;
+
+}
+#ourservicesForthtext{
+  padding-top: 70px;
+
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+
+}
+
+#ourservicesForthtext p{
+  font-size: 17px;
+
+}
+
+.ourservicesForthimg img{
+  padding-bottom: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+/*  let the forth column end here  */
+
+/*  let the fifth column start here  */
+
+#ourservicesFifthjumbo{
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  text-align: center;
+}
+
+#ourservicesFifthtext{
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+
+
+}
+#ourservicesFifthtext p{
+  font-size: 18px;
+
+}
+
+#ourservicesFifthtext h3{
+  color: #037BFE;
+
+}
+/*  let the fifth column end here  */
+
+/*  let the sixth column start here  */
+
+
+
+/*  let the sixth column end here  */
+
+.card-img-topsservice{
+height: 370px;
+}
+
+.card-body{
+  text-align: center;
+  color: red;
+}

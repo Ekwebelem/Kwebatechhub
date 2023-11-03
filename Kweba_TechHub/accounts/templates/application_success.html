@@ -1,0 +1,65 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<!-- application_success.html -->
+<!--
+<h1>PDF Uploaded Successfully</h1>
+<p>Download your uploaded PDF: <a href="{{ pdf_url }}" target="_blank">{{ pdf_url }}</a></p>
+-->
+
+
+<!-- the first block starts here  -->
+
+<div class="jumbotron" id="application_successfirstjumbo">
+  <div class="container" >
+        <div class="row">
+              <div class="col-md-1">  <!-- 3 is the width of the left side -->
+              </div>
+
+              <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                    <div class="application_successfirsttext">
+                        <h1>You have Successfully applied for this role</h1>
+                        <br>
+                   </div>
+             </div>
+             <div class="col-md-1">  <!-- 3 is the width of the left side -->
+             </div>
+
+          </div>
+
+  </div>
+</div>
+
+<!-- the first block ends here  -->
+
+<!-- the second block starts here  -->
+
+<div class="jumbotron" id="application_successsecondblockjumbotron">
+  <div class="container" >
+        <div class="row">
+              <div class="col-md-3">  <!-- 3 is the width of the left side -->
+              </div>
+
+              <div class="col-md-6" >  <!-- 6 is the width of the center side -->
+                <div class="application_successsecondblockfill">
+                  <img src=" {% static 'images/marketer3.png' %} "  alt="no image found">
+                </div>
+             </div>
+             <div class="col-md-3">  <!-- 3 is the width of the left side -->
+             </div>
+
+          </div>
+
+  </div>
+</div>
+
+<!-- the second block ends here  -->
+
+
+
+
+
+{% endblock %}

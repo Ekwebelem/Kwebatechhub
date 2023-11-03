@@ -1,0 +1,164 @@
+
+/*  let the header column start here  */
+
+#softwarejumbotron{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.softwareheadercell{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+
+#softwarefirstblock{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#softwarefirstblocktext{
+  padding-top: 30px;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#softwarefirstblocktext h3{
+  color: #037BFE;
+}
+
+#softwarefirstblocktext p{
+  font-size: 17px;
+}
+
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#softwaresecondblockjumbotron{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.softwaresecondblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.softwaresecondblocktext{
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.softwaresecondblocktext h3{
+  color: #037BFE;
+}
+
+/*  let the second column end here  */
+
+/*  let the third column start here  */
+
+#softwarethirdblockjumbotron{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: LightCyan;
+}
+
+.softwarethirdblocktext{
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.softwarethirdblocktext h3{
+  color: #037BFE;
+}
+
+.softwarethirdblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the third column end here  */
+
+/*  let the forth column start here  */
+
+#softwareforthblockjumbotron{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.softwareforthblocktext{
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+.softwareforthblocktext h3{
+  color: #037BFE;
+}
+
+.softwareforthblockfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*  let the forth column end here  */
+
+/*  let the fifth column start here  */
+
+#softwarefifthblockjumbotron{
+  background-color: LightCyan;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#softwarefifthblocktext{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#softwarefifthblocktext h3{
+  color: #037BFE;
+}
+#softwarefifthblocktext p{
+  font-size: 16px;
+}
+
+/*  let the fifth column end here  */
+
+/*  let the sixth column start here  */
+
+
+
+/*  let the sixth column end here  */

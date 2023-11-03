@@ -1,0 +1,489 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body %}
+<!-- Intro settings -->
+
+
+
+
+  <!--  let the header start here   -->
+  <div class="jumbotron" id="indexheader">
+      <div class="container">
+          <div class="row">
+                        <div class="col-md-6"  >
+                              <div class="indexfirstcell">
+                                        <h6 >Welcome to Kweba Tech-Hub</h6>
+                                        <h1 class="indexh1">Let's Take Your Business Global</h1>
+                                        <br>
+                                        <p >
+                                          At Kweba Tech Hub, we are committed to pushing the boundaries of technology and delivering cutting-edge solutions that drive success for businesses and individuals alike.
+                                          As a dynamic and forward-thinking tech company, we specialize in a diverse range of services to cater to the evolving needs of our clients.
+                                        </p>
+                                          <br>
+                                        <div >
+                                          <a href="{% url 'contact' %}" <button type="button" class="btn btn-primary" style='margin-right:16px' name="button">Contact Us</button> </a>
+                                        <!--  <button type="button" class="btn btn-info" style='margin-right:16px'  name="button">Know More</button> -->
+                                          <a href="{% url 'about' %}" <button type="button" class="btn btn-outline-primary" style='margin-right:16px'>Know More</button> </a>
+                                         </div>
+
+                               </div>
+                        </div>
+                       <div class="col-md-6">
+                                  <div class="indexheadimage">
+                                    <img src="{% static 'images/headimage.png' %}"  alt="no image found">
+                                  </div>
+                       </div>
+            </div>
+      </div>
+  </div>
+<!--  let the header end here   -->
+
+<!--  let the first column start here   -->
+
+  <div class="jumbotron" id="indexfirstjumbo">
+    <div class="container">
+          <div class="row">
+                <div class="col-md-2">  <!-- 3 is the width of the left side -->
+                </div>
+
+                <div class="col-md-8" >  <!-- 6 is the width of the center side -->
+                      <div id="indexfirsttext">
+                          <h6>Our Services</h6>
+                          <h2>We Innovate your Ideas</h2>
+                          <br>
+                          <p>
+                            Kweba Tech-Hub scales your brand by creating high-performing content and employing world-class media strategies around your business. Together, they propel your brand to greater heights and profitability.
+                          </p>
+                     </div>
+               </div>
+               <div class="col-md-2">  <!-- 3 is the width of the left side -->
+               </div>
+
+            </div>
+
+    </div>
+    </div>
+
+    <!--  let the first column start here   -->
+
+  <!--  let the second column start here   -->
+
+
+<div class="jumbotron" id="indexsecondsecondjumbo" >
+      <div class="container" >
+          <div class="row" >
+                    <div class="col-md-4" id="indexsecondcard">
+                          <div class="indexsecondbody"  >
+                                      <img src="{% static 'images/ui_ux.png' %}"  alt="no image found">
+                                <div class="indexsecondtext">
+                                        <h5 class="">UI/UX Design</h5>
+                                        <p>
+                                          Captivate your audience with visually stunning and intuitive user interfaces.
+                                          Our talented designers blend creativity with functionality to create exceptional digital experiences that leave a lasting impression.
+                                        </p>
+                                        <a href="{% url 'ui_ux' %}" class="btn btn-primary">Read More</a>
+                                  </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-4" id="indexsecondcard">
+                          <div class="indexsecondbody">
+                                      <img src=" {% static 'images/software1.png' %} "  alt="no image found">
+                                <div class="indexsecondtext">
+                                        <h5 class="">Software Development</h5>
+                                        <p>
+                                          From idea to reality, Whether you need web applications, mobile apps, or custom software, our expert developers deliver robust and scalable solutions that empower businesses to thrive in the digital era.
+                                        </p>
+                                        <a href="{% url 'softwaredev' %}" class="btn btn-primary">Read More</a>
+                                </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-4" id="indexsecondcard">
+                            <div class="indexsecondbody" >
+                                        <img src="{% static 'images/trading1.png' %}" alt="no image found">
+                                  <div class="indexsecondtext">
+                                          <h5 class="">Crypto Trading</h5>
+                                          <p>
+                                            Explore the exciting world of cryptocurrencies with our Crypto Trading services.
+                                            Our expert traders leverage data-driven strategies to help you navigate the market efficiently and seize financial opportunities with confidence.
+                                          </p>
+                                          <a href="{% url 'crypto' %}" class="btn btn-primary">Read More</a>
+                                  </div>
+                            </div>
+                    </div>
+        </div>
+   </div>
+</div>
+
+<!--  let the second column end here   -->
+
+  <!--  let the third column start here   -->
+
+  <div class="jumbotron" id="indexthirdcontainer">
+        <div class="container">
+              <div class="row">
+                          <div class="col-md-6"  >
+                                <div class="indexthirdcell">
+                                        <h6>Kweba Tech-Hub</h6>
+                                        <h2 class="indexh1thirdcell">Empowering Your Digital Journey</h2>
+                                        <br>
+                                        <p>
+                                          At Kweba Tech Hub, we are more than just a tech company;
+                                          <br>we are your partners in progress, dedicated to empowering your digital journey. With a passion for innovation and a commitment to excellence,
+                                          we offer a comprehensive suite of services that cater to businesses and individuals across various industries.
+                                        </p>
+
+                                        <p>
+                                          At Kweba Tech Hub, innovation is at our core, collaboration is in our DNA, and excellence is our standard.
+                                          We are driven by your success and committed to providing solutions that make a meaningful impact.
+                                        </p>
+                                          <br>
+                                              <div id="indexthirdcellbutton">
+                                                <a href="{% url 'about' %}" <button type="button" class="btn btn-info" style='margin-right:16px'  name="button">Know More</button> </a>
+                                              </div>
+                                </div>
+                          </div>
+
+                           <div class="col-md-6">
+                                      <div class="indexthirdimg">
+                                        <img src="{% static 'images/team.png' %}"  alt="no image found">
+                                      </div>
+                           </div>
+              </div>
+        </div>
+  </div>
+
+  <!--  let the third column end here   -->
+
+  <!--  let the forth column start here   -->
+  <div class="jumbotron" id="indexforthcontainer">
+        <div class="container">
+                <div class="row">
+                            <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                            </div>
+
+                              <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                                    <div id="indexforthtext">
+                                        <h6>Choose Kweba Tech-Hub</h6>
+                                        <h2>We Gained People’s Trust Through Our Service</h2>
+                                         <br>
+                                         <p>
+                                          At Kweba Tech Hub, our clients' trust is our most valuable asset.
+                                          <br>We are proud to have earned the confidence of businesses and individuals through our commitment to excellence, customer-centric approach, and impactful solutions.
+                                          </p>
+                                     </div>
+                               </div>
+
+                               <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                               </div>
+                  </div>
+          </div>
+    </div>
+
+    <!--  let the forth column end here   -->
+
+  <!--  let the fifth column starts here   -->
+
+<div class="jumbotron" id="indexfifthcontainer">
+      <div class="container">
+            <div class="row">
+                      <div class="col-md-6">
+                                <div  class="indexfifthimg" >
+                                  <img src="{% static 'images/software3.png' %}" alt="no image found">
+                                </div>
+                        </div>
+
+                      <div class="col-md-6">
+                                  <div class="accordion" id="accordionExample">
+                                          <div class="accordion-item">
+                                                  <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                      <h6><strong>Innovation at the Core</strong></h6>
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                              We thrive on innovation and stay at the forefront of technological advancements, ensuring that our clients receive cutting-edge solutions that surpass expectations.
+                                                            </p>
+                                                         </div>
+                                                   </div>
+                                           </div>
+                                <br>
+                                            <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                          <h6><strong>Client-Centric Approach</strong></h6>
+                                                      </button>
+                                                    </h2>
+                                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                          <div class="accordion-body">
+                                                            <p>
+                                                              Your success is our priority. We value transparent communication, active collaboration, and a deep understanding of your unique goals to create tailor-made solutions.
+                                                            </p>
+                                                           </div>
+                                                    </div>
+                                            </div>
+                                <br>
+                                            <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                              <h6><strong>Expertise and Experience</strong></h6>
+                                                          </button>
+                                                        </h2>
+                                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                                <div class="accordion-body">
+                                                                  <p>
+                                                                    Our team comprises skilled professionals with years of experience and expertise across various domains, enabling us to tackle projects of any complexity.
+                                                                  </p>
+                                                                </div>
+                                                        </div>
+                                               </div>
+                                <br>
+                                                <div class="accordion-item">
+                                                            <h2 class="accordion-header">
+                                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                                  <h6><strong>Data-Driven Strategies</strong></h6>
+                                                              </button>
+                                                            </h2>
+                                                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                                  <div class="accordion-body">
+                                                                    <p>
+                                                                      In crypto trading, software development, and beyond, we employ data-driven strategies to make informed decisions and deliver results that matter.
+                                                                    </p>
+                                                                  </div>
+                                                            </div>
+                                                </div>
+                                <br>
+                                                <div class="accordion-item">
+                                                              <h2 class="accordion-header">
+                                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                                    <h6><strong>Lasting Partnerships</strong></h6>
+                                                                </button>
+                                                              </h2>
+                                                              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                                      <div class="accordion-body">
+                                                                        <p>
+                                                                          We value long-term partnerships and strive to be a reliable and trusted ally on your journey to success.
+                                                                          Our commitment to your growth goes beyond project completion; we are here to support you every step of the way.
+                                                                        </p>
+                                                                      </div>
+                                                              </div>
+                                                 </div>
+                        </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+          <!--  let the fifth column end here   -->
+
+          <!--  let the sixth column starts here   -->
+
+          <div class="jumbotron" id="indexsixthcontainer">
+                    <div class="container" >
+                          <div class="row">
+                                    <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                                    </div>
+
+                                     <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                                              <div id="indexsixthtext">
+                                                  <h6>We Are Popular Because Of Our Delivery Model</h6>
+                                                  <h2>This Is How We Get The Job Done</h2>
+                                                  <br>
+                                                  <p>
+                                                    At Kweba Tech Hub, getting the job done is our commitment to delivering exceptional results, exceeding expectations, and making your vision a reality.
+                                                    Our streamlined approach ensures efficiency, transparency, and a smooth journey from concept to completion.
+                                                  </p>
+                                              </div>
+                                     </div>
+                                     <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                                     </div>
+                         </div>
+                   </div>
+        </div>
+
+      <!--  let the sixth column end here   -->
+
+      <!--  let the seventh column starts here   -->
+
+<div class="jumbotron" id="indexsevencontainer">
+        <div class="container" >
+              <div class="row" id="indexsevenrow">
+
+
+                              <div class="col-md-4">  <!-- 3 is the width of the left side -->
+                                    <div class="indexsevenimg">
+                                      <img src="{% static 'images/vision2.png' %}"  alt="Process image">
+                                    </div>
+                                    <div class="indexseventext">
+                                      <h5>Understanding Your Vision</h5>
+                                      <p>
+                                        We start by understanding your vision and goals.
+                                        <br>Our team collaborates closely with you, taking the time to listen, ask questions, and gain insights into your unique requirements.
+                                      </p>
+                                    </div>
+                              </div>
+
+                              <div class="col-md-4">  <!-- 3 is the width of the left side middle -->
+                                      <div class="indexsevenimg">
+                                        <img src="{% static 'images/solution2.png' %}"  alt="Process image">
+                                      </div>
+                                      <div class="indexseventext">
+                                        <h5>Crafting Tailored Solutions</h5>
+                                        <p>
+                                          With a deep understanding of your needs, we craft tailor-made solutions that align perfectly with your objectives.
+                                          Our creative minds blend innovation with expertise to develop strategies that make a meaningful impact.
+                                        </p>
+                                      </div>
+                              </div>
+
+                              <div class="col-md-4">  <!-- 3 is the width of the right side middle -->
+                                        <div class="indexsevenimg">
+                                            <img src="{% static 'images/implementation2.png' %}" alt="Process image">
+                                        </div>
+                                        <div class="indexseventext">
+                                          <h5>Expert Implementation</h5>
+                                          <p>
+                                            The magic happens during implementation.
+                                            Our experienced professionals, work seamlessly to bring your project to life, ensuring it is robust, user-friendly, and technologically advanced.
+                                          </p>
+                                        </div>
+                              </div>
+
+
+
+              </div>
+
+
+          <!--  second HALLLLLVVVVVV  -->
+
+        <div class="row" id="indexsevenrow2">
+
+                    <div class="col-md-4">  <!-- 3 is the width of the left side -->
+                            <div class="indexsevenimg">
+                              <img src="{% static 'images/message2.png' %}"  alt="Process image">
+                             </div>
+                            <div class="indexseventext">
+                              <h5>Continuous Communication</h5>
+                              <p>
+                                Communication is key.
+                                Throughout the process, we maintain open and transparent communication, keeping you informed about progress, milestones, and any adjustments needed.
+                              </p>
+                             </div>
+                    </div>
+
+                    <div class="col-md-4">  <!-- 3 is the width of the left side middle -->
+                              <div class="indexsevenimg">
+                                <img src="{% static 'images/quality-assurance2.png' %}"  alt="Process image">
+                              </div>
+                              <div class="indexseventext">
+                                <h5>Quality Assurance</h5>
+                                <p>
+                                  Quality is ingrained in everything we do.
+                                  Our dedicated quality assurance team conducts rigorous testing to ensure that your project meets the highest standards of performance, security, and reliability.
+                                 </p>
+                              </div>
+                    </div>
+
+                    <div class="col-md-4">  <!-- 3 is the width of the right side middle -->
+                                <div class="indexsevenimg">
+                                    <img src="{% static 'images/timely2.png' %}"  alt="Process image">
+                                </div>
+                                <div class="indexseventext">
+                                  <h5>Timely Delivery</h5>
+                                  <p>
+                                    We value your time and strive to deliver projects within agreed timelines without compromising on quality.
+                                    Our efficient processes and skilled team ensure timely completion of your project.
+                                  </p>
+                                </div>
+                    </div>
+
+
+         </div>
+   </div>
+</div>
+
+
+          <!--  let the seventh column end here   -->
+
+          <!--  let the eighth column starts here   -->
+
+<div class="jumbotron" id="idexeightjumbo">
+      <div class="container">
+                      <div class="row">
+                                <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                                </div>
+
+                                <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                                      <div id="indexeightcontacttext">
+                                          <h6>Contact us directly if you have any questions</h6>
+                                          <h2>Let's Innovate, Collaborate, and Create Together</h2>
+                                          <br>
+                                          <p>
+                                            Together, we'll innovate, grow, and make an impact that lasts.
+                                            <br>Get in touch with us today and unlock the possibilities with Kweba Tech Hub!
+                                          </p>
+                                        </div>
+                                 </div>
+
+                                 <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                                 </div>
+                    </div>
+       </div>
+</div>
+
+  <div class="jumbotron" id="idexninejumbo">
+          <div class="container">
+                <div class="row">
+                      <div class="col-md-6"  >
+                          <div class="indexnineformimg">
+                              <img src="{% static 'images/contact.png' %}"  alt="no image found">
+                            </div>
+                        </div>
+
+                     <div class="col-md-6"  id="indexninecontactformbackground">
+                        <div class="indexnineformpad">
+                                <form method="post">
+                                  {% csrf_token %}
+                                  <br>
+                                  <div class="mb-3">
+                                    <label for="first_name" class="form-label">First Name:</label>
+                                    <input type="text" class="form-control" placeholder="First Name" id="first_name" name="first_name" required><br>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="last_name" class="form-label">Last Name:</label>
+                                    <input type="text" class="form-control" placeholder="Last Name" id="last_name" name="last_name" required><br>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="phone_number" class="form-label">Phone Number:</label>
+                                    <input type="text" class="form-control" placeholder="Phone No" id="phone_number" name="phone_number" required><br>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" placeholder="Email address" id="email" name="email" required><br>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="subject" class="form-label" >Subject</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="yourmessage" class="form-label">Your Message</label>
+                                    <textarea id="yourmessage" class="form-control" name="yourmessage" placeholder="Your Message" rows="4" required></textarea>
+                                  </div>
+                                  <div class="indexninebtn2">
+                                    <button type="submit" class="btn btn-sucess">Submit</button>
+                                  </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+  </div>
+          <!--  let the eighth column end here   -->
+
+{% endblock %}

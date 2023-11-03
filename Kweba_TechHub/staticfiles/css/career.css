@@ -1,0 +1,56 @@
+.softwaretest{
+  color: red;
+}
+
+.softwarefirstcell{
+  text-align: center;
+  padding-top: 150px;
+}
+#softwarejumbotron{
+  background-color: skyblue;
+  width: 100%;
+  height: 400px;
+}
+
+.softwaresecondcell{
+  padding-top: 170px;
+  padding-bottom: 130px;
+  padding-right: 40px;
+
+}
+
+.softwaresecondinnercell{
+  padding-left: 40px;
+  padding-top: 190px;
+}
+
+.softwarefill img {
+  padding-top: 70px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.softwarethirdcell{
+  padding-top: 170px;
+  padding-bottom: 130px;
+  padding-right: 40px;
+
+}
+
+.softwarethirdinnercell{
+  padding-left: 40px;
+  padding-top: 190px;
+}
+
+.softwareforthcell{
+  padding-top: 170px;
+  padding-bottom: 130px;
+  padding-right: 40px;
+
+}
+
+.softwareforthinnercell{
+  padding-left: 40px;
+  padding-top: 250px;
+}

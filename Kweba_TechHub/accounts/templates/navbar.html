@@ -1,0 +1,89 @@
+{% load static %}
+
+
+
+  <!--
+
+<nav class="navbar navbar-expand-lg" id="navback" >  <!-- bg-body-tertiary" data-bs-theme="dark   <img src="{% static 'images/Kweba-Tech-hub-logo2.png' %}" alt="No image found">-->
+  <!--
+<div class="container" id="navimage">
+<a class="navbar-brand"   href="https://kwebatechhub.com/" ><img src="{% static 'images/kwebalogoblack.png' %}" alt="No image found"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="collapse navbar-collapse justify-content-between">
+
+
+  <ul class="navbar-nav" >
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="{% url 'home' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'about' %}">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'ourservices' %}">Our Services</a>
+        </li>
+
+        <!--
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{% url 'ourservices' %}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{% url 'ui_ux' %}">UI/UX Design</a></li>
+            <li><a class="dropdown-item" href="{% url 'crypto' %}">Crypto Trading</a></li>
+            <li><a class="dropdown-item" href="{% url 'softwaredev' %}">Software Development</a></li>
+            <li><a class="dropdown-item" href="{% url 'businessdev' %}">Business Development</a></li>
+          </ul>
+        </li>
+        -->
+
+    </ul>
+
+      <!--
+
+      <ul class="navbar-nav">
+          {% if user.is_authenticated %}
+          <li class="nav-item ml-auto">
+            <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+          </li>
+          {% else %}
+          <li class="nav-item navbar-right">
+            <a class="nav-link" href="{% url 'register' %}">Register</a>
+          </li>
+          <li class="nav-item navbar-right">
+            <a class="nav-link" href="{% url 'login' %}">Login</a>
+          </li>
+          {% endif %}
+
+        </ul>
+</div>
+</div>
+</div>
+</nav>
+
+  -->
+
+  <!-- second phase -->
+
+<nav class="navbar navbar-expand-lg " >
+  <div class="container" id="container">
+    <a class="navbar-brand" href="https://kwebatechhub.com"><img src="{% static 'images/kwebalogoblack.png' %}" alt="No image found"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+        <a class="nav-link" href="{% url 'about' %}">About Us</a>
+        <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+        <a class="nav-link" href="{% url 'ourservices' %}">Our Services</a>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,105 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<!-- the header starts here  -->
+
+<div class="jumbotron" id="careerheader" style="background-image: url('{% static 'images/ourserviceheader.jpg' %}');">
+  <!-- 8 is the width of the left side -->
+
+    <div class="careerjumbotrontext">
+      <h3>Join Us in Shaping the Future</h3>
+      <p>Career</p>
+   </div>
+</div>
+
+<!-- the header ends here  -->
+
+<!-- the first block starts here  -->
+
+<div class="jumbotron" id="careerfirstjumbo">
+  <div class="container" >
+        <div class="row">
+              <div class="col-md-1">  <!-- 3 is the width of the left side -->
+              </div>
+
+              <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                    <div class="careerfirsttext">
+                        <h6>Want to make a difference?</h6>
+                        <h1>Join Our Team </h1>
+                        <br>
+                        <p>
+                          At Kweba Tech Hub, we're not just offering jobs; we're offering the chance to be a part of something bigger.
+                          <br>Join us in shaping the future of technology and making a real impact in the world.
+                          <br>Apply today and become a valuable member of our innovative family.
+                        </p>
+                   </div>
+             </div>
+             <div class="col-md-1">  <!-- 3 is the width of the left side -->
+             </div>
+
+          </div>
+
+  </div>
+</div>
+
+<!-- the first block ends here  -->
+
+<!-- the first 2 block starts here  -->
+
+<div class="jumbotron" id="careerfirstjumbo">
+  <div class="container" >
+        <div class="row">
+              <div class="col-md-3">  <!-- 3 is the width of the left side -->
+              </div>
+
+              <div class="col-md-6" >  <!-- 6 is the width of the center side -->
+                    <div class="careerfirsttext">
+                        <h1>JOB OPENINGS </h1>
+                   </div>
+             </div>
+             <div class="col-md-3">  <!-- 3 is the width of the left side -->
+             </div>
+
+          </div>
+
+  </div>
+</div>
+
+<!-- the first 2 block ends here  -->
+
+<!--  let the second column start here   -->
+
+
+<div class="jumbotron" id="careersecondjumbo" >
+      <div class="container" >
+          <div class="row" >
+
+            <div class="col-md-4" id="careerSecondhoverbody">
+                    <div class="careerSecondbody" >
+                        <img src="{% static 'images/marketer1.png' %}" class="" alt="no image found">
+                              <div class="careerSecondtext">
+                                <h5 class="">Digital Marketer Intern</h5>
+                                <p>
+                                  We are seeking a motivated and dynamic intern to join our team as a Digital Marketing and Customer Support Intern.
+                                </p>
+                                <a href="{% url 'marketer' %}" class="btn btn-primary">Read More</a>
+                              </div>
+                    </div>
+
+            </div>
+
+
+        </div>
+      </div>
+  </div>
+
+    <!--  let the second column start here   -->
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,220 @@
+
+p{
+  font-size: 16px;
+}
+
+/*  let the header column start here  */
+
+#aboutheader{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+.aboutjumbotrontext{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+
+#aboutfirstjumbo{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.aboutfirsttext{
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.aboutfirsttext p{
+  font-size: 17px;
+
+}
+
+.aboutfirsttext h2{
+  color: #037BFE;
+}
+
+.aboutfirstfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#aboutsecondjumbo{
+  background-color: LightCyan;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.aboutsecondfill img {
+  padding-right: 20px;
+  padding-left: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.aboutsecondtext{
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+  padding-top: 70px;
+
+}
+
+.aboutsecondtext h2{
+  color: #037BFE;
+}
+
+.aboutsecondtext p{
+  font-size: 17px;
+}
+
+
+
+/*  let the second column end here  */
+
+/*  let the third column start here  */
+
+#aboutthirdjumbo{
+  padding-top: 50px;
+  padding: 50px;
+
+}
+
+.aboutthirdtext{
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: justify;
+
+
+}
+
+.aboutthirdbulletpoint li{
+  font-size: 16px;
+}
+
+.aboutthirdtext h2{
+  color: #037BFE;
+}
+.aboutthirdbulletpoint{
+  color: black;
+  /*  line-height: 1.8; */
+}
+
+.aboutthirdimage img{
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*  let the third column end here  */
+
+/*  let the forth column start here  */
+
+
+#aboutforthjumbo{
+  padding-top: 20px;
+  background-color: LightCyan;
+
+}
+
+#aboutforthtext{
+  padding-top: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#aboutforthtext p{
+  font-size: 17px;
+}
+
+
+/*  let the forth column end here  */
+
+/*  let the fifth column start here  */
+#aboutfifthjumbo{
+  padding-top: 0px;
+  padding-bottom: 30px;
+background-color: LightCyan;
+}
+
+.aboutfifthtext{
+  color: #065FD6;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+  padding-top: 100px;
+  padding-bottom: 0px
+}
+
+#aboutforthtext h2{
+  color: #037BFE;
+}
+
+.aboutfifthbulletpoint{
+  color: black;
+   line-height: 1.8;
+}
+
+.aboutfifthimage img{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+/*  let the fifth column end here  */
+
+/*  let the sixth column start here  */
+
+#aboutsixthjumbo{
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+}
+
+#aboutsixthtext{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#aboutsixthtext h3{
+  color: #037BFE;
+}
+
+#aboutsixthtext p{
+  font-size: 17px;
+}
+
+
+/*  let the sixth column end here  */

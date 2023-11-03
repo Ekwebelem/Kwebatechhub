@@ -1,0 +1,401 @@
+
+
+/*  let the header column start here  */
+
+#indexheader{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: LightCyan;
+}
+
+.indexfirstcell{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  vertical-align: baseline;
+
+}
+
+.indexfirstcell p{
+  text-align: justify;
+  font-size: 17px;
+}
+
+.indexfirstcell h6{
+text-align: justify;
+
+}
+
+.indexh1{
+  font-size: 50px;
+  font-weight: bold;
+  color: Navy;
+
+}
+
+.indexheadimage img{
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 90%;
+  height: 90%;
+}
+
+
+.btn.btn-primary{
+
+  color: white;
+}
+
+.btn.btn-primary:hover {
+  background: transparent;
+  color: black;
+    box-shadow: none;
+}
+
+.btn.btn-outline-primary{
+  color: navy;
+}
+.btn.btn-outline-primary:hover{
+  background: #00104E;
+  color: white;
+    box-shadow: none;
+}
+
+#indexheadcontact{
+  background-color: pink;
+}
+
+
+/*  let the header column end here  */
+
+
+/*  let the first column start here  */
+
+#indexfirstjumbo{
+  padding-top: 30px;
+
+}
+
+#indexfirsttext h2{
+color: #037BFE;
+}
+
+#indexfirsttext p{
+font-size: 17px;
+
+
+}
+
+#indexfirsttext{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+
+
+}
+
+
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+
+#indexsecondsecondjumbo{
+    padding-bottom: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#indexsecondcard {
+  padding-top: 20px;
+}
+
+#indexsecondcard :hover {
+  background: skyblue;
+  color: black;
+    box-shadow: none;
+  }
+
+  .indexsecondbody{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px skyblue;
+
+
+  }
+
+  .indexsecondbody img{
+    text-align: center;
+    height: 90%;
+    width: 90%;
+
+  }
+
+  .indexsecondtext{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .indexsecondtext h5{
+  color: #037BFE;
+  }
+
+/*  let the second column end here  */
+
+
+/*  let the third column start here  */
+#indexthirdcontainer{
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: LightCyan;
+  color: #00104E;
+}
+
+.indexthirdcell{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.indexthirdcell h6{
+  text-align: justify;
+}
+
+.indexthirdcell p{
+  font-size: 17px;
+  text-align: justify;
+
+}
+
+
+
+.indexh1thirdcell{
+  font-size: 42px;
+  font-weight: bold;
+  color: #037BFE;
+}
+
+#indexthirdcellbutton {
+
+}
+
+#indexthirdcellbutton :hover {
+  background: #00104E;
+  color: white;
+    box-shadow: none;
+}
+
+.btn.btn-info{
+  background-color: #037BFE;
+  color: white;
+}
+
+.indexthirdimg img{
+  width: 100%;
+  height: 100%;
+}
+
+  /*  let the third column end here  */
+
+
+
+  /*  let the forth column start here  */
+
+
+  #indexforthcontainer{
+    padding-top: 70px;
+    background-color: White;
+
+  }
+
+  #indexforthtext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexforthtext h2{
+  color: #037BFE;
+  }
+
+  #indexforthtext p{
+  font-size: 17px;
+
+  }
+
+
+  /*  let the forth column end here  */
+
+  /*  let the fift column start here  */
+  #indexfifthcontainer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: White;
+
+  }
+
+.accordion-item h6{
+  color: #037BFE;
+  }
+
+
+  .indexfifthimg img{
+  height: 100%;
+  width: 100%;
+  }
+
+
+
+  /*  let the fifth column end here  */
+
+  /*  let the sixth column start here  */
+  #indexsixthcontainer{
+    padding-top: 70px;
+    padding-bottom: 0px;
+    background-color: #00104E;
+    color: white;
+
+  }
+
+  #indexsixthtext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexsixthtext h2{
+    color: aqua;
+  }
+
+  #indexsixthtext p{
+    font-size: 18px;
+  }
+
+
+  /*  let the sixth column end here  */
+
+  /*  let the seventh column start here  */
+
+  #indexsevencontainer{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: #00104E;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexsevenrow2{
+    padding-top: 20px;
+  }
+
+  .indexsevenimg{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+  }
+
+  .indexsevenimg img{
+    color: white;
+    width: 50px;
+    height:50px;
+  }
+
+
+.indexseventext{
+text-align: center;
+
+}
+.indexseventext h5{
+  color: aqua;
+}
+
+  /*  let the seventh column end here  */
+
+  /*  let the eightth column start here  */
+  #idexeightjumbo{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: LightCyan;
+
+  }
+  #indexeightcontacttext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #indexeightcontacttext h2{
+  color: #037BFE;
+  }
+
+  #indexeightcontacttext p{
+  font-size: 17px;
+  }
+
+  /*  let the ninth column end here  */
+
+  /*  let the ninth column start here  */
+
+  #idexninejumbo{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: LightCyan;
+
+  }
+
+  .indexnineformimg{
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+
+  .indexnineformimg img{
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+  #indexninecontactformbackground{
+    background-color: #037BFE;
+    color: white;
+
+  }
+  .indexnineformpad{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+    .indexninebtn2{
+      text-align: center;
+    }
+
+    .btn.btn-sucess{
+      background-color: #00104E;
+      color: white;
+   }
+
+
+    /*  let the ninth column end here  */

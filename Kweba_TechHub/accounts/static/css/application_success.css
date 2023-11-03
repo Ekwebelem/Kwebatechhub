@@ -1,0 +1,45 @@
+
+/*  let the first column start here  */
+#application_successfirstjumbo{
+  padding-top: 30px;
+}
+
+.application_successfirsttext{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.application_successfirsttext h1{
+  color: #037BFE;
+}
+
+.application_successfirsttext p{
+  font-size: 17px;
+}
+
+
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#application_successsecondblockjumbotron{
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+
+
+.application_successsecondblockfill img {
+
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+}
+
+
+
+/*  let the second column end here  */

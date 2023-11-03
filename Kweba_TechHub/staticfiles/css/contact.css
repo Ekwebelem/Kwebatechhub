@@ -1,0 +1,152 @@
+
+
+
+/*  let the header column start here  */
+
+#contactheaderjumbo{
+  box-shadow: inset 0 0 0 2000px rgba(15, 109, 253, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+
+}
+
+.contactjumbotrontext{
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*  let the header column end here  */
+
+/*  let the first column start here  */
+
+#contactfirstjumbo{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+#contactfirsttext{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#contactfirsttext h3{
+  color: #037BFE;
+}
+#contactfirsttext p{
+  font-size: 16px;
+}
+
+.contactfirstbody {
+  padding-top: 20px;
+    color: black;
+}
+#contactfirstbody {
+  padding-top: 20px;
+}
+
+/*  let the first column end here  */
+
+/*  let the second column start here  */
+
+#contactsecondjumbo{
+    padding-bottom: 20px;
+}
+
+  .contactfirstbody{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px skyblue;
+
+  }
+
+  .contactfirstbody h5{
+    color: #037BFE;
+
+  }
+
+  .contactfirstbody img{
+    text-align: center;
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .contactfirsttext{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+  }
+
+/*  let the second column end here  */
+
+/*  let the third column start here  */
+
+#contactthirdjumbo{
+
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.contactthirdformimg{
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+.contactthirdformimg img{
+  height: 100%;
+  width: 100%;
+}
+
+
+#contactthirdformbackground{
+  background-color: #037BFE;
+  color: white;
+}
+
+.contactthirdformpad{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+#contactthirdformp{
+  text-align: center
+}
+
+.contactthirdbtn2{
+  text-align: center;
+}
+
+ .btn.btn-sucess{
+   background-color: #00104E;
+   color: white;
+}
+/*  let the third column end here  */
+
+/*  let the forth column start here  */
+
+#contactforthjumbo{
+  padding-bottom: 40px;
+}
+#contactforthjumbo p{
+  font-size: 17px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+/*  let the forth column end here  */

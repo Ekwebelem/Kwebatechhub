@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<!-- upload_success.html -->
+<!--
+<h1>PDF Uploaded Successfully</h1>
+<p>Download your uploaded PDF: <a href="{{ pdf_url }}" target="_blank">{{ pdf_url }}</a></p>
+-->
+
+<h1>You have Successfully applied for this role</h1>
+
+<p>Good luck</p>
+
+<!-- application_success.html -->
+
+<h1>Application Submitted Successfully</h1>
+<p>Name: {{ form.instance.name }}</p>
+<p>Email: {{ form.instance.email }}</p>
+<p>PDF File: <a href="{{ form.instance.pdf_file.url }}">{{ form.instance.pdf_file.name }}</a></p>
+
+
+
+{% endblock %}

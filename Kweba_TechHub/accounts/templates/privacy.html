@@ -1,0 +1,156 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+
+  <!-- the header starts here  -->
+
+    <div class="jumbotron" id="privacyjumbotron" style="background-image: url('{% static 'images/privacyhead.png' %}');">
+      <div class="privacyheadercell">
+      <h3>Your Privacy, Our Priority </h3>
+      <p>Privacy</p>
+      </div>
+    </div>
+
+    <!-- the header ends here  -->
+
+    <!-- the first block starts here  -->
+
+    <div class="container">
+          <div class="row">
+                <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                </div>
+
+                <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                      <div id="privacyfirstblocktext">
+                        <h3>Let's Ignite Your Business Growth</h3>
+                          <p>
+                            At Kweba Tech Hub, we value your privacy and are committed to protecting your personal information.
+                            <br>This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you interact with our website and services.
+                            <br>We encourage you to read this policy to understand our practices.
+                          </p>
+                     </div>
+                     <br>
+               </div>
+               <div class="col-md-1">  <!-- 3 is the width of the left side -->
+               </div>
+            </div>
+    </div>
+
+    <!-- the first block ends here  -->
+
+    <!-- the second block starts here  -->
+
+
+    <div class="jumbotron" id="privacysecondblockjumbotron" >
+              <div class="container" >
+                  <div class="row">
+
+                    <div class="col-md-6">
+                          <div class="privacysecondblockfill">
+                            <img src=" {% static 'images/privacy1.png' %} "  alt="no image found">
+                          </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="privacysecondblocktext">
+                          <h5>Information We Collect</h5>
+
+                      We may collect personal information, including but not limited to your name, email address, contact details, and relevant business information when you engage with our services or communicate with us.
+                      <br>
+                      <br>
+                      <h5>How We Use Your Information</h5>
+                      We use your information to provide, improve, and personalize our services. This includes responding to your inquiries, processing transactions, and sending updates. We may also use your information for analytics and research to enhance user experience and service quality.
+                      <br>
+                      <br>
+                      <h5>Data Sharing and Disclosure</h5>
+                      We do not share, sell, or rent your personal information to third parties for marketing purposes. However, we may share information with trusted partners who assist us in delivering our services. These partners are contractually obligated to keep your information confidential and use it only for the purposes specified by us.
+                      <br>
+                      <br>
+                      <h5>Data Security</h5>
+                      We employ industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet or electronic storage is entirely secure, and we cannot guarantee absolute security.
+
+                        </div>
+                    </div>
+
+
+                 </div>
+              </div>
+    </div>
+
+    <!-- the second block ends here  -->
+
+    <!-- the third block starts here  -->
+
+    <div class="jumbotron" id="privacythirdblockjumbotron" >
+              <div class="container" >
+                  <div class="row">
+
+
+                      <div class="col-md-6">
+                          <div class="privacythirdblocktext">
+                            <h5>Cookies and Tracking Technologies</h5>
+                            We use cookies and similar tracking technologies to enhance your browsing experience and collect information about how you use our website. You can adjust your browser settings to block cookies, but this may affect certain functionalities of our site.
+                            <br>
+                            <br>
+                            <h5>Links to Third-Party Sites</h5>
+                            Our website may contain links to third-party websites. Please note that we are not responsible for the content or privacy practices of these sites. We encourage you to review the privacy policies of these external sites before providing any personal information.
+                            <br>
+                            <br>
+                            <h5>Your Privacy Choices</h5>
+                            You have the right to access, update, or delete your personal information. You can also opt-out of receiving promotional communications from us. If you have any privacy-related concerns, please contact us using the information provided in the "Contact Us" section below.
+                            <br>
+                            <br>
+                            <h5>Changes to this Policy</h5>
+                            We reserve the right to modify this Privacy Policy at any time. Changes will be effective when posted on our website. We encourage you to review this policy periodically for updates.
+                          </div>
+                      </div>
+
+                      <div class="col-md-6">
+                            <div class="privacythirdblockfill">
+                              <img src=" {% static 'images/privacy2.png' %} "  alt="no image found">
+                            </div>
+                      </div>
+
+                 </div>
+              </div>
+    </div>
+
+
+      <!-- the third block ends here  -->
+
+      <!-- the forth block starts here  -->
+
+<div class="container" id="privacyforthblockjumbotron">
+      <div class="row">
+            <div class="col-md-1">  <!-- 3 is the width of the left side -->
+            </div>
+
+            <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                  <div id="privacyforthblocktext">
+                    <h3>Contact Us</h3>
+                      <p>
+                        If you have any questions, concerns, or requests related to your privacy, please don't hesitate to contact us:
+
+                      </p>
+                      <a href="{% url 'contact' %}" <button type="submit" class="btn btn-primary">Get in touch</button></a>
+                 </div>
+                 <br>
+
+           </div>
+           <div class="col-md-1">  <!-- 3 is the width of the left side -->
+           </div>
+
+        </div>
+
+</div>
+
+<!-- the forth block ends here  -->
+
+
+
+
+
+{% endblock %}

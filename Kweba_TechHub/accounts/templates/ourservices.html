@@ -1,0 +1,234 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block body %}
+
+<!-- the header starts here  -->
+
+<div class="jumbotron" id="ourservicesheader" style="background-image: url('{% static 'images/ourserviceheader.jpg' %}');">
+  <!-- 8 is the width of the left side -->
+
+    <div class="ourservicesjumbotrontext">
+      <h3>Your Gateway to Cutting-Edge Technological Solutions!</h3>
+      <p>Our Services</p>
+   </div>
+</div>
+
+<!-- the header ends here  -->
+
+<!-- the first block starts here  -->
+
+<div class="jumbotron" id="ourservicesfirstjumbo">
+  <div class="container" >
+        <div class="row">
+              <div class="col-md-2">  <!-- 3 is the width of the left side -->
+              </div>
+
+              <div class="col-md-8" >  <!-- 6 is the width of the center side -->
+                    <div class="ourservicesfirsttext">
+                        <h6>Lets drive success together</h6>
+                        <h1>We Scale Brands</h1>
+                        <br>
+                        <p>
+                          We are proud to offer a comprehensive suite of services tailored to meet the diverse needs of businesses and individuals in today's fast-paced digital landscape.
+                          <br>Explore our services below and discover how we can elevate your brand and drive success together.
+                        </p>
+                   </div>
+             </div>
+             <div class="col-md-2">  <!-- 3 is the width of the left side -->
+             </div>
+
+          </div>
+
+  </div>
+</div>
+
+<!-- the first block ends here  -->
+
+
+<!--  let the second column start here   -->
+
+
+<div class="jumbotron" id="ourservicessecondjumbo" >
+      <div class="container" >
+          <div class="row" >
+
+            <div class="col-md-4" id="ourservicesSecondhoverbody">
+                    <div class="ourservicesSecondbody" >
+                        <img src="{% static 'images/trading5.png' %}" class="" alt="no image found">
+                              <div class="ourservicesSecondtext">
+                                <h5 class="">Crypto Trading</h5>
+                                <p>
+                                  Explore the exciting world of cryptocurrencies with our Crypto Trading services.
+                                  Gain access to data-driven strategies, trading signals, and expert portfolio management to make informed decisions and capitalize on market opportunities.
+                                </p>
+                                <a href="{% url 'crypto' %}" class="btn btn-primary">Read More</a>
+                              </div>
+                    </div>
+
+            </div>
+
+
+
+                <div class="col-md-4" id="ourservicesSecondhoverbody">
+                        <div class="ourservicesSecondbody">
+                            <img src=" {% static 'images/business2.png' %} " class="" alt="no image found">
+                                  <div class="ourservicesSecondtext">
+                                    <h5 class="">Business Development</h5>
+                                    <p>
+                                      Unlock your business's full potential with our Business Development services.
+                                      Our experts conduct thorough market analysis, develop strategic plans, and guide you through partnerships and alliances to fuel your growth and expand your reach.
+                                    </p>
+                                    <a href="{% url 'businessdev' %}" class="btn btn-primary">Read More</a>
+                                  </div>
+                        </div>
+                </div>
+                <div class="col-md-4" id="ourservicesSecondhoverbody">
+                        <div class="ourservicesSecondbody" >
+                            <img src=" {% static 'images/project13.png' %} " class="" alt="no image found">
+                              <div class="ourservicesSecondtext">
+                                <h5 class="">Project Management</h5>
+                                <p>
+                                  Efficiently execute your projects with our Project Management services.
+                                  Our experienced project managers handle every aspect, from planning to execution, ensuring on-time delivery, cost-effectiveness, and optimal resource management.
+                                </p>
+                                <a href="{% url 'project' %}" class="btn btn-primary">Read More</a>
+                              </div>
+                        </div>
+                  </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+    <!--  let the second column ends here   -->
+
+  <!--  let the third column start here   -->
+
+
+  <div class="jumbotron" id="ourservicesThirdjumbo" >
+      <div class="container" >
+          <div class="row" >
+
+            <div class="col-md-4" id="ourservicesThirdhoverbody">
+                    <div class="ourservicesThirdbody" >
+                        <img src=" {% static 'images/software5.png' %} " class="" alt="no image found">
+                          <div class="ourservicesThirdtext">
+                            <h5 class="">Software Development</h5>
+                            <p>
+                              From concept to deployment, our Software Development services empower you to bring your vision to life.
+                              Whether you need web applications, mobile apps, or custom software, our expert developers deliver robust and scalable solutions tailored to your requirements.
+                            </p>
+                            <a href="{% url 'softwaredev' %}" class="btn btn-primary">Read More</a>
+                          </div>
+                    </div>
+              </div>
+
+                <div class="col-md-4" id="ourservicesThirdhoverbody">
+                        <div class="ourservicesThirdbody">
+                            <img src="{% static 'images/uiux1.png' %}"  alt="no image found">
+                            <div class="ourservicesThirdtext" >
+                                <h5 class="">UI/UX Design</h5>
+                                <p>
+                                  Immerse your users in an exceptional digital experience with our UI/UX Design services.
+                                  <br>Our talented designers blend aesthetics with functionality, creating captivating user interfaces and intuitive user experiences that leave a lasting impression.
+                                </p>
+                                <a href="{% url 'ui_ux' %}" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="col-md-4" id="ourservicesForthhoverbody">
+                        <div class="ourservicesForthbody" >
+
+                        </div>
+
+                </div>
+    </div>
+  </div>
+  </div>
+
+<!--  let the third column end here   -->
+
+<!--  let the forth column start here   -->
+
+
+<div class="jumbotron" id="ourservicesForthjumbo" >
+        <div class="container" >
+                  <div class="row" >
+                              <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                              </div>
+
+                              <div class="col-md-5" id="ourservicesForthtext">
+                                          <div>
+                                            <h3 id="ourservicesForthtexthead">Embark on a Transformational Journey</h3>
+                                            <br>
+                                                  <p>
+                                                    At Kweba Tech Hub, we are driven by innovation and a commitment to excellence.
+                                                    Let's collaborate and embark on a transformative journey to shape the future together.
+                                                    <br>Whether you're a startup with a groundbreaking idea or an established enterprise seeking digital transformation, our services are designed to meet your needs and surpass your expectations.
+                                                   </p>
+                                            </div>
+                              </div>
+
+                              <div class="col-md-5" >
+                                <div class="ourservicesForthimg">
+                                  <img src=" {% static 'images/business3.png' %} "  alt="no image found">
+                                </div>
+                              </div>
+
+                              <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                              </div>
+                </div>
+      </div>
+</div>
+
+
+<!--  let the forth column end here   -->
+
+<!--  let the fifth column start here   -->
+<div class="jumbotron" id="ourservicesFifthjumbo">
+
+<div class="container" >
+        <div class="row">
+                  <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                  </div>
+
+                  <div class="col-md-10" >  <!-- 6 is the width of the center side -->
+                        <div id="ourservicesFifthtext">
+                          <h3>Are you ready to embrace the possibilities of the digital world?</h3>
+                            <p>
+                              Contact us today to discuss your requirements and embark on a journey of technological excellence with Kweba Tech Hub!
+                            </p>
+                            <a href="{% url 'contact' %}" <button type="submit" class="btn btn-primary">Contact Us</button></a>
+                        </div>
+                       <br>
+
+                 </div>
+                 <div class="col-md-1">  <!-- 3 is the width of the left side -->
+                 </div>
+
+          </div>
+
+</div>
+</div>
+
+
+
+<!--  let the FIFth column start here   -->
+
+
+
+
+<!--  let the sixth column end here   -->
+
+
+
+
+{% endblock %}
